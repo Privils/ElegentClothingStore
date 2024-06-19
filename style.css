@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Playfair Display", serif;
+ 
+}
+#nav-bar{
+   
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background: linear-gradient(to right, rgb(0, 195, 255), blue);
+    padding: 0 !important;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav a{
+   color: #fff !important;
+   font-weight: 600;
+}
+.logo{
+    font-size: 30px;
+    font-style: italic;
+    padding: 10px;
+}
+/*------------------services------------------*/
+#services{
+    padding-top: 8%;
+    background: linear-gradient(to right, rgb(0, 195, 255), blue);
+}
+.title{
+    font-size: 26px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.title p{
+    font-weight: 800;
+}
+.viewIcon i{
+    font-size: 25px;
+    padding: 0 10px;
+    margin: 5px;
+    color: #000;
+}
+.viewIcon{
+    font-size: 19px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    text-decoration: underline;
+}
+.bottom-img{
+    width: 100%;
+}
+/*-----------------------------about-------------------------------*/
+#AboutHeader{
+    font-size: 40px;
+    padding-bottom: 50px;
+padding-top: 50px;
+}
+.aboutElegence{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 8%;
+}
+#about{
+    background: #ffffff;
+}
+/*-----------------------------products------------------------------*/
+
+.star-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.star {
+    font-size: 2em;
+    color: #d3d3d3;
+    cursor: pointer;
+}
+
+.star.selected,
+.star:hover,
+.star:hover ~ .star {
+    color: #ffca08;
+}
+#card{
+    padding: 5px;
+}
+.card-text.collapsed {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Number of lines to show before "Read More" */
+    -webkit-box-orient: vertical;
+}
+#ontainer{
+        padding-top: 8%;
+        background: linear-gradient(to right, rgb(0, 195, 255), blue);
+}
+
+/*--------------------social media---------------*/
+#socail-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+    }
+    #social-media p{
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    .social-icons img{
+        width: 60px;
+        transition: 0.5s;
+    }
+    .social-icons a:hover img{
+        transform: translateY(-10px);
+    }
+    
+/*--------------footer section------------*/
+#footer{
+    background: linear-gradient(to right, rgb(0, 195, 255), blue);
+    color: #fff;
+}
+.footer-img{
+    width: 100%;
+}
+.footer-box{
+    padding: 20px;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+} 
+.footer-box .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary{
+    box-shadow: none;
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+ 
+    background: linear-gradient(to right, rgb(0, 195, 255), blue);
+}
+
+.copy-write{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+/*----------------------------------testimonials---------------------*/
+#testimonials{
+    margin: 100px 0;
+}
+.testimonials{
+    border-left: 4px solid #0004ff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0  10px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
