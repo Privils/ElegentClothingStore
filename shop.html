@@ -21,12 +21,65 @@
             </p>
         </div>
     </div>
+    <!--------------------------------------products to be displayed------------------->
 <section class="displayProducts">
-    <div class="d-flex flex-wrap">
+    <div class="d-flex flex-wrap" id="displayedProducts">
         <div class="card col-sm-2">
             <img src="images/image (4).png" alt="" class="img-fluid loco" id="img">
+            <h6 class="card-title">Ocean Breeze</h6>
+            <p>R458.89</p>
+            <div class="btncontainer">
+                <button class="btn button" type="button">add to cart</button>
+            </div>
+            <div class="star-rating">
+              <span class="star" data-value="5">
+                &#9733;
+              </span>
+              <span class="star" data-value="4">
+                &#9733;
+              </span>
+              <span class="star" data-value="3">
+                &#9733;
+              </span>
+              <span class="star" data-value="2">
+                &#9733;
+              </span>
+              <span class="star" data-value="1">
+                &#9733;
+              </span>
+            </div>
         </div>
     </div>
+</section>
+<hr>
+<!------------------------------------cart section---------------------------------->
+<section class="carrt">
+    <h1 class="section-header">CART</h1>
+    <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+    <div class="cart-items">
+
+       <div class="cart-item cart-column">
+        <img src="images/image (5).png" alt="cart image" class="cart-item-image">
+        <span class="name">White brozure</span>
+       </div>
+       <span class="cart-price cart-column">R4586.89</span>
+     
+       <div class="cart-quantity cart-column">
+        <input type="number" class="cart-quantity-input" value="1">
+        <button class="btn btn-danger item-price" type="button">remove</button>
+       </div>
+
+        </div>
+    </div>
+    <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">R0</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
 </section>
 <script src="index.js"></script>
     <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
