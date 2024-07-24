@@ -20,7 +20,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
+              <a class="nav-link btn-danger" href="/">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">about us</a>
@@ -29,7 +29,7 @@
               <a class="nav-link" href="#products">products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/Store">shop</a>
+              <a class="nav-link" href="shop.html">shop</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">contact</a>
@@ -39,53 +39,188 @@
       </div>
     </nav>
   </section>
+
+  <!-------------------------------------------aervices------------------------------------>
 <section id="services">
-  <div className="container">
-    <div className="row">
-      <div
-        className="col-md-6"
-        data-aos="fade-right"
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6" 
+    data-aos="fade-right"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+    <h1 class="title">Defining Elegance, One Outfit at a Time</h1>
+    <p>
+      At ElegantEdge, we believe that true elegance lies in the
+      details. Our carefully curated collections are designed to bring
+      sophistication and style to your wardrobe, ensuring you always
+      make a lasting impression. From timeless classics to modern
+      trends, we provide high-quality fashion that embodies grace and
+      confidence.
+    </p>
+    <a href="#" class="viewIcon">
+      <i class="fa-solid fa-arrow-right"></i>
+      view more products
+    </a>
+    </div>
+    <div class="col-sm-6"
+    data-aos="fade-left"
         data-aos-easing="linear"
-        data-aos-duration="1500"
-      >
-        <h1 className="title">Defining Elegance, One Outfit at a Time</h1>
-        <p>
-          At ElegantEdge, we believe that true elegance lies in the
-          details. Our carefully curated collections are designed to bring
-          sophistication and style to your wardrobe, ensuring you always
-          make a lasting impression. From timeless classics to modern
-          trends, we provide high-quality fashion that embodies grace and
-          confidence.
-        </p>
-        <a href="#" className="viewIcon">
-          <i className="fa-solid fa-arrow-right"></i>
-          view more products
-        </a>
-      </div>
-      <div
-        className="col-md-6"
-        data-aos="fade-left"
-        data-aos-easing="linear"
-        data-aos-duration="1500"
-      >
-        <img src='images/image.png' alt="fashion" className="img-fluid" />
-      </div>
+        data-aos-duration="1500">
+        <img src='images/image.png' alt="fashion" class="img-fluid" />
     </div>
   </div>
-  <img src='images/wave1.png' alt="wave image" className="bottom-img img-fluid" />
+</div>
+  <img src='images/wave1.png' alt="wave image" class="bottom-img img-fluid" />
 </section>
 
+<!--------------------------------products-------------------------------->
 <section id="products">
-  <div className="container">
-    <div className="row">
-      <h4 className="title" id="AboutHeader">
-        {" "}
+  <div class="container">
+    <div class="row">
+      <h4 class="title" id="AboutHeader">
         Featured Products
       </h4>
-      <div className="d-flex flex-wrap">
-        <div className="card    col-md-3" id="card">
-          <div
-            className="card-body"
+      <div class="d-flex flex-wrap">
+      <div class="card col-sm-3"  id="card">
+        <div
+        class="card-body"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      >
+        <img
+        id="img"
+          src="images/image (2).png"
+          class="img-fluid"
+        />
+        <h6 class="card-title">Urban Explorer</h6>
+        <div class="star-rating">
+          <span class="star" data-value="5">
+            &#9733;
+          </span>
+          <span class="star" data-value="4">
+            &#9733;
+          </span>
+          <span class="star" data-value="3">
+            &#9733;
+          </span>
+          <span class="star" data-value="2">
+            &#9733;
+          </span>
+          <span class="star" data-value="1">
+            &#9733;
+          </span>
+        </div>
+      </div>
+      </div>
+      <div class="card col-sm-3">
+        <div
+        class="card-body"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      >
+        <img
+          id="img"
+          src="images/image (3).png"
+          alt=""
+          class="card-img-top img-fluid"
+        />
+        <h6 class="card-title">Classic White Elegance</h6>
+        <div class="star-rating">
+          <span class="star" data-value="5">
+            &#9733;
+          </span>
+          <span class="star" data-value="4">
+            &#9733;
+          </span>
+          <span class="star" data-value="3">
+            &#9733;
+          </span>
+          <span class="star" data-value="2">
+            &#9733;
+          </span>
+          <span class="star" data-value="1">
+            &#9733;
+          </span>
+        </div>
+      </div>
+      </div>
+      <div class="card col-sm-3">
+        <div
+        class="card-body"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      >
+        <img
+          id="img"
+          src="images/image (4).png"
+          alt=""
+          class="card-img-top img-fluid"
+        />
+        <h6 class="card-title">Sunset Horizon</h6>
+        <div class="star-rating">
+          <span class="star" data-value="5">
+            &#9733;
+          </span>
+          <span class="star" data-value="4">
+            &#9733;
+          </span>
+          <span class="star" data-value="3">
+            &#9733;
+          </span>
+          <span class="star" data-value="2">
+            &#9733;
+          </span>
+          <span class="star" data-value="1">
+            &#9733;
+          </span>
+        </div>
+      </div>
+      </div>
+      <div class="card col-sm-3">
+        
+
+        <div
+        class="card-body"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      >
+        <img
+          id="img"
+          src="images/image (5).png"
+          alt=""
+          class="card-img-top img-fluid"
+        />
+        <h6 class="card-title">Ocean Breeze</h6>
+        <div class="star-rating">
+          <span class="star" data-value="5">
+            &#9733;
+          </span>
+          <span class="star" data-value="4">
+            &#9733;
+          </span>
+          <span class="star" data-value="3">
+            &#9733;
+          </span>
+          <span class="star" data-value="2">
+            &#9733;
+          </span>
+          <span class="star" data-value="1">
+            &#9733;
+          </span>
+        </div>
+      </div>
+      </div>
+      <div class="card col-sm-3">
+        <div
+            class="card-body"
             data-aos="fade-up"
             data-aos-anchor-placement="center"
             data-aos-easing="linear"
@@ -93,273 +228,140 @@
           >
             <img
               id="img"
-              src={image2}
-              alt=""
-              className="card-img-top img-fluid"
+              src="images/image (9).png"
+              class="card-img-top img-fluid"
             />
-            <h6 className="card-title">Urban Explorer</h6>
-            <div className="star-rating">
-              <span className="star" data-value="5">
+            <h6 class="card-title">Midnight Velvet</h6>
+            <div class="star-rating">
+              <span class="star" data-value="5">
                 &#9733;
               </span>
-              <span className="star" data-value="4">
+              <span class="star" data-value="4">
                 &#9733;
               </span>
-              <span className="star" data-value="3">
+              <span class="star" data-value="3">
                 &#9733;
               </span>
-              <span className="star" data-value="2">
+              <span class="star" data-value="2">
                 &#9733;
               </span>
-              <span className="star" data-value="1">
+              <span class="star" data-value="1">
                 &#9733;
               </span>
             </div>
           </div>
+      </div>
+      <div class="card col-sm-3">
+        <div
+        class="card-body"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      >
+        <img
+          id="img"
+          src="images/image (7).png"
+          alt=""
+          class="card-img-top img-fluid"
+        />
+        <h6 class="card-title">Summer Splash</h6>
+        <div class="star-rating">
+          <span class="star" data-value="5">
+            &#9733;
+          </span>
+          <span class="star" data-value="4">
+            &#9733;
+          </span>
+          <span class="star" data-value="3">
+            &#9733;
+          </span>
+          <span class="star" data-value="2">
+            &#9733;
+          </span>
+          <span class="star" data-value="1">
+            &#9733;
+          </span>
         </div>
-        <div className="card    col-md-3" id="card">
-          <div
-            className="card-body"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center"
-            data-aos-easing="linear"
-            data-aos-duration="1000"
-          >
-            <img
-              id="img"
-              src={image3}
-              alt=""
-              className="card-img-top img-fluid"
-            />
-            <h6 className="card-title">Classic White Elegance</h6>
-            <div className="star-rating">
-              <span className="star" data-value="5">
-                &#9733;
-              </span>
-              <span className="star" data-value="4">
-                &#9733;
-              </span>
-              <span className="star" data-value="3">
-                &#9733;
-              </span>
-              <span className="star" data-value="2">
-                &#9733;
-              </span>
-              <span className="star" data-value="1">
-                &#9733;
-              </span>
-            </div>
-          </div>
+      </div>
+      </div>
+      <div class="card col-sm-3">
+        <div
+        class="card-body"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      >
+        <img
+          id="img"
+          src="images/image (8).png"
+          alt=""
+          class="card-img-top img-fluid"
+        />
+        <h6 class="card-title">Autumn Harvest</h6>
+        <div class="star-rating">
+          <span class="star" data-value="5">
+            &#9733;
+          </span>
+          <span class="star" data-value="4">
+            &#9733;
+          </span>
+          <span class="star" data-value="3">
+            &#9733;
+          </span>
+          <span class="star" data-value="2">
+            &#9733;
+          </span>
+          <span class="star" data-value="1">
+            &#9733;
+          </span>
         </div>
-        <div className="card    col-md-3" id="card">
-          <div
-            className="card-body"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center"
-            data-aos-easing="linear"
-            data-aos-duration="1000"
-          >
-            <img
-              id="img"
-              src={image4}
-              alt=""
-              className="card-img-top img-fluid"
-            />
-            <h6 className="card-title">Sunset Horizon</h6>
-            <div className="star-rating">
-              <span className="star" data-value="5">
-                &#9733;
-              </span>
-              <span className="star" data-value="4">
-                &#9733;
-              </span>
-              <span className="star" data-value="3">
-                &#9733;
-              </span>
-              <span className="star" data-value="2">
-                &#9733;
-              </span>
-              <span className="star" data-value="1">
-                &#9733;
-              </span>
-            </div>
-          </div>
+      </div>
+      </div>
+      <div class="card col-sm-3">
+        <div
+        class="card-body"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      >
+        <img
+          id="img"
+          src="images/image (9).png"
+          alt=""
+          class="card-img-top img-fluid"
+        />
+        <h6 class="card-title">Vintage Charm</h6>
+        <div class="star-rating">
+          <span class="star" data-value="5">
+            &#9733;
+          </span>
+          <span class="star" data-value="4">
+            &#9733;
+          </span>
+          <span class="star" data-value="3">
+            &#9733;
+          </span>
+          <span class="star" data-value="2">
+            &#9733;
+          </span>
+          <span class="star" data-value="1">
+            &#9733;
+          </span>
         </div>
-        <div className="card    col-md-3" id="card">
-          <div
-            className="card-body"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center"
-            data-aos-easing="linear"
-            data-aos-duration="1000"
-          >
-            <img
-              id="img"
-              src={image5}
-              alt=""
-              className="card-img-top img-fluid"
-            />
-            <h6 className="card-title">Ocean Breeze</h6>
-            <div className="star-rating">
-              <span className="star" data-value="5">
-                &#9733;
-              </span>
-              <span className="star" data-value="4">
-                &#9733;
-              </span>
-              <span className="star" data-value="3">
-                &#9733;
-              </span>
-              <span className="star" data-value="2">
-                &#9733;
-              </span>
-              <span className="star" data-value="1">
-                &#9733;
-              </span>
-            </div>
-          </div>
-        </div>
-        <div className="card    col-md-3" id="card">
-          <div
-            className="card-body"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center"
-            data-aos-easing="linear"
-            data-aos-duration="1000"
-          >
-            <img
-              id="img"
-              src={image6}
-              alt=""
-              className="card-img-top img-fluid"
-            />
-            <h6 className="card-title">Midnight Velvet</h6>
-            <div className="star-rating">
-              <span className="star" data-value="5">
-                &#9733;
-              </span>
-              <span className="star" data-value="4">
-                &#9733;
-              </span>
-              <span className="star" data-value="3">
-                &#9733;
-              </span>
-              <span className="star" data-value="2">
-                &#9733;
-              </span>
-              <span className="star" data-value="1">
-                &#9733;
-              </span>
-            </div>
-          </div>
-        </div>
-        <div className="card    col-md-3" id="card">
-          <div
-            className="card-body"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center"
-            data-aos-easing="linear"
-            data-aos-duration="1000"
-          >
-            <img
-              id="img"
-              src={image7}
-              alt=""
-              className="card-img-top img-fluid"
-            />
-            <h6 className="card-title">Summer Splash</h6>
-            <div className="star-rating">
-              <span className="star" data-value="5">
-                &#9733;
-              </span>
-              <span className="star" data-value="4">
-                &#9733;
-              </span>
-              <span className="star" data-value="3">
-                &#9733;
-              </span>
-              <span className="star" data-value="2">
-                &#9733;
-              </span>
-              <span className="star" data-value="1">
-                &#9733;
-              </span>
-            </div>
-          </div>
-        </div>
-        <div className="card    col-md-3" id="card">
-          <div
-            className="card-body"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center"
-            data-aos-easing="linear"
-            data-aos-duration="1000"
-          >
-            <img
-              id="img"
-              src={image8}
-              alt=""
-              className="card-img-top img-fluid"
-            />
-            <h6 className="card-title">Autumn Harvest</h6>
-            <div className="star-rating">
-              <span className="star" data-value="5">
-                &#9733;
-              </span>
-              <span className="star" data-value="4">
-                &#9733;
-              </span>
-              <span className="star" data-value="3">
-                &#9733;
-              </span>
-              <span className="star" data-value="2">
-                &#9733;
-              </span>
-              <span className="star" data-value="1">
-                &#9733;
-              </span>
-            </div>
-          </div>
-        </div>
-        <div className="card    col-md-3" id="card">
-          <div
-            className="card-body"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center"
-            data-aos-easing="linear"
-            data-aos-duration="1000"
-          >
-            <img
-              id="img"
-              src={image9}
-              alt=""
-              className="card-img-top img-fluid"
-            />
-            <h6 className="card-title">Vintage Charm</h6>
-            <div className="star-rating">
-              <span className="star" data-value="5">
-                &#9733;
-              </span>
-              <span className="star" data-value="4">
-                &#9733;
-              </span>
-              <span className="star" data-value="3">
-                &#9733;
-              </span>
-              <span className="star" data-value="2">
-                &#9733;
-              </span>
-              <span className="star" data-value="1">
-                &#9733;
-              </span>
-            </div>
-          </div>
-        </div>
+      </div>
+      </div>
       </div>
     </div>
   </div>
+  </div>
 </section>
-<section className="goToSection">
+
+<!--------------------------------------------------------go to section--------------------------------------------------->
+
+<section class="goToSection">
   <div
     class="image-container"
     data-aos="fade-up"
@@ -367,31 +369,33 @@
     data-aos-easing="linear"
     data-aos-duration="1000"
   >
-    <img src={image10} alt="" className="img-fluid" />
+    <img src="images/b2.jpg" alt="" class="img-fluid" />
     <div class="centered-text">
-      <p className="gotoAction">
-        Get up to{" "}
-        <span className="text-danger">
+      <p class="gotoAction">
+        Get up to
+        <span class="text-danger">
           <em>35% OFF</em>
         </span>
         - on your first item Purchase
       </p>
-      <button type="button" className="btn btn-danger" id="btn">
+      <button type="button" class="btn btn-danger" id="btn">
         explore more
       </button>
     </div>
   </div>
+
+<!--------------------------------------------------------------------new Arrivals---------------------------------------------------------------->
 </section>
-<section className="newArivals">
-  <div className="container">
-    <div className="row">
-      <h1 className="title" id="AboutHeader">
+<section class="newArivals">
+  <div class="container">
+    <div class="row">
+      <h1 class="title" id="AboutHeader">
         new arrivals
       </h1>
-      <div className="d-flex flex-wrap">
-        <div className="card    col-md-4" id="card">
+      <div class="d-flex flex-wrap">
+        <div class="card    col-md-4" id="card">
           <div
-            className="card-body"
+            class="card-body"
             data-aos="fade-up"
             data-aos-anchor-placement="center"
             data-aos-easing="linear"
@@ -399,33 +403,33 @@
           >
             <img
               id="redImages"
-              src={image11}
+              src="images/8.png"
               alt=""
-              className="card-img-top img-fluid img-new"
+              class="card-img-top img-fluid img-new"
             />
-            <h6 className="card-title">Vintage Charm</h6>
-            <div className="star-rating">
-              <span className="star" data-value="5">
+            <h6 class="card-title">Vintage Charm</h6>
+            <div class="star-rating">
+              <span class="star" data-value="5">
                 &#9733;
               </span>
-              <span className="star" data-value="4">
+              <span class="star" data-value="4">
                 &#9733;
               </span>
-              <span className="star" data-value="3">
+              <span class="star" data-value="3">
                 &#9733;
               </span>
-              <span className="star" data-value="2">
+              <span class="star" data-value="2">
                 &#9733;
               </span>
-              <span className="star" data-value="1">
+              <span class="star" data-value="1">
                 &#9733;
               </span>
             </div>
           </div>
         </div>
-        <div className="card    col-md-4" id="card">
+        <div class="card    col-md-4" id="card">
           <div
-            className="card-body"
+            class="card-body"
             data-aos="fade-up"
             data-aos-anchor-placement="center"
             data-aos-easing="linear"
@@ -433,33 +437,33 @@
           >
             <img
               id="redImages"
-              src={image12}
+              src="images/9.png"
               alt=""
-              className="card-img-top img-fluid"
+              class="card-img-top img-fluid"
             />
-            <h6 className="card-title">Vintage Charm</h6>
-            <div className="star-rating">
-              <span className="star" data-value="5">
+            <h6 class="card-title">Vintage Charm</h6>
+            <div class="star-rating">
+              <span class="star" data-value="5">
                 &#9733;
               </span>
-              <span className="star" data-value="4">
+              <span class="star" data-value="4">
                 &#9733;
               </span>
-              <span className="star" data-value="3">
+              <span class="star" data-value="3">
                 &#9733;
               </span>
-              <span className="star" data-value="2">
+              <span class="star" data-value="2">
                 &#9733;
               </span>
-              <span className="star" data-value="1">
+              <span class="star" data-value="1">
                 &#9733;
               </span>
             </div>
           </div>
         </div>
-        <div className="card    col-md-4" id="card">
+        <div class="card    col-md-4" id="card">
           <div
-            className="card-body"
+            class="card-body"
             data-aos="fade-up"
             data-aos-anchor-placement="center"
             data-aos-easing="linear"
@@ -467,25 +471,25 @@
           >
             <img
               id="redImages"
-              src={image13}
+              src="images/10.png"
               alt=""
-              className="card-img-top img-fluid"
+              class="card-img-top img-fluid"
             />
-            <h6 className="card-title">Vintage Charm</h6>
-            <div className="star-rating">
-              <span className="star" data-value="5">
+            <h6 class="card-title">Vintage Charm</h6>
+            <div class="star-rating">
+              <span class="star" data-value="5">
                 &#9733;
               </span>
-              <span className="star" data-value="4">
+              <span class="star" data-value="4">
                 &#9733;
               </span>
-              <span className="star" data-value="3">
+              <span class="star" data-value="3">
                 &#9733;
               </span>
-              <span className="star" data-value="2">
+              <span class="star" data-value="2">
                 &#9733;
               </span>
-              <span className="star" data-value="1">
+              <span class="star" data-value="1">
                 &#9733;
               </span>
             </div>
@@ -495,28 +499,29 @@
     </div>
   </div>
 </section>
-<section className="cardSlide">
-  <div className="carousel slide" data-bs-ride="carousel" id="slideShow">
-    <div className="carousel-inner d-flex" id="slideShow">
-      <div className="carousel-item active image-container">
-        <img src={image14} alt="Los Angeles" className="d-block w-100" />
-        <div className="left-text">
-          <p className="gotoAction">
-            Get up to{" "}
-            <span className="text-danger">
+<!-------------------------------------------------------card slide---------------------------------------------->
+<section class="cardSlide">
+  <div class="carousel slide" data-bs-ride="carousel" id="slideShow">
+    <div class="carousel-inner d-flex" id="slideShow">
+      <div class="carousel-item active image-container">
+        <img src="images/b4.jpg" alt="Los Angeles" class="d-block w-100" />
+        <div class="left-text">
+          <p class="gotoAction">
+            Get up to
+            <span class="text-danger">
               <em>35% OFF</em>
-            </span>{" "}
+            </span>
             - on your first item Purchase
           </p>
-          <button type="button" className="btn btn-light" id="btn">
+          <button type="button" class="btn btn-light" id="btn">
             Explore More
           </button>
         </div>
       </div>
-      <div className="carousel-item image-container">
-        <img src={image15} alt="Chicago" className="d-block w-100" />
-        <div className="left-text">
-          <p className="gotoAction text-dark">
+      <div class="carousel-item image-container">
+        <img src="images/b7.jpg" alt="Chicago" class="d-block w-100"  id="img"/>
+        <div class="left-text">
+          <p class="gotoAction text-dark">
             <strong>
               <em>spring/summer clothing</em>
               <br />
@@ -526,72 +531,72 @@
               </p>
             </strong>
           </p>
-          <button type="button" className="btn btn-danger" id="btn">
+          <button type="button" class="btn btn-danger" id="btn">
             Explore More
           </button>
         </div>
       </div>
-      <div className="carousel-item image-container">
-        <img src={image16} alt="New York" className="d-block w-100" />
-        <div className="left-text">
-          <p className="gotoAction">
-            season sale{" "}
-            <span className="text-danger">
+      <div class="carousel-item image-container">
+        <img src="images/b16.jpg" alt="New York" class="d-block w-100"  id="img"/>
+        <div class="left-text">
+          <p class="gotoAction">
+            season sale
+            <span class="text-danger">
               <em>15% OFF</em>
-            </span>{" "}
+            </span>
             - on winter collections
           </p>
-          <button type="button" className="btn btn-success" id="btn">
+          <button type="button" class="btn btn-success" id="btn">
             Explore More
           </button>
         </div>
       </div>
-      <div className="carousel-item image-container">
-        <img src={image17} alt="New York" className="d-block w-100" />
-        <div className="left-text">
-          <p className="gotoAction">
+      <div class="carousel-item image-container">
+        <img src="images/b17.jpg" class="d-block w-100"  id="img"/>
+        <div class="left-text">
+          <p class="gotoAction">
             <h1>new shirts</h1>
             <br />
             <em>spring/summer 2024</em>
           </p>
-          <button type="button" className="btn btn-info" id="btn">
+          <button type="button" class="btn btn-info" id="btn">
             Explore More
           </button>
         </div>
       </div>
-      <div className="carousel-item image-container">
-        <img src={image18} alt="New York" className="d-block w-100" />
-        <div className="left-text">
-          <p className="gotoAction">trending winter jackets</p>
-          <button type="button" className="btn btn-primary" id="btn">
+      <div class="carousel-item image-container">
+        <img src="images/b18.jpg" alt="New York" class="d-block w-100"  id="img"/>
+        <div class="left-text">
+          <p class="gotoAction">trending winter jackets</p>
+          <button type="button" class="btn btn-danger" id="btn">
             Explore More
           </button>
         </div>
       </div>
     </div>
     <button
-      className="carousel-control-prev"
+      class="carousel-control-prev"
       type="button"
       data-bs-target="#slideShow"
       data-bs-slide="prev"
     >
       <span
-        className="carousel-control-prev-icon"
+        class="carousel-control-prev-icon"
         aria-hidden="true"
       ></span>
-      <span className="visually-hidden">Previous</span>
+      <span class="visually-hidden">Previous</span>
     </button>
     <button
-      className="carousel-control-next"
+      class="carousel-control-next"
       type="button"
       data-bs-target="#slideShow"
       data-bs-slide="next"
     >
       <span
-        className="carousel-control-next-icon"
+        class="carousel-control-next-icon"
         aria-hidden="true"
       ></span>
-      <span className="visually-hidden">Next</span>
+      <span class="visually-hidden">Next</span>
     </button>
   </div>
 </section>
@@ -608,7 +613,7 @@
         data-aos-easing="linear"
         data-aos-duration="1500"
       >
-        <img src={image19} alt="shirt" class="bottom-img" />
+        <img src="images/a6.jpg" alt="shirt" class="bottom-img" />
       </div>
       <div
         class="col-md-6"
@@ -663,7 +668,7 @@
   data-aos-easing="linear"
   data-aos-duration="500"
 >
-  <img src={image20} alt="" class="footer-img" />
+  <img src="images/wave2.png" alt="" class="footer-img" />
 
   <section
     id="contact"
@@ -677,19 +682,22 @@
       </h5>
       <div class="social-icons">
         <a href="">
-          <img src={image21} alt="" />
+          <img src="images/facebook-icon.png" alt="" />
         </a>
         <a href="">
-          <img src={image22} alt="" />
+          <img src="images/instagram-icon.png" alt="" />
         </a>
         <a href="">
-          <img src={image23} alt="" />
+          <img src="images/linkedin-icon.png" alt="" />
         </a>
         <a href="">
-          <img src={image24} alt="" />
+          <img src="images/snapchat-icon.png" alt="" />
         </a>
         <a href="">
-          <img src={image25} alt="" />
+          <img src="images/twitter-icon.png" alt="" />
+        </a>
+        <a href="">
+          <img src="images/whatsapp-icon.png" alt="" />
         </a>
       </div>
     </div>
