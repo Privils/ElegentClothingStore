@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "Classic White Sneakers",
-            "image": "../images/products/shoes/72.png",
+            "image": "./images//products/shoes/72.png",
             "category":"shoes",
             "price": 899,
             "description": "Comfortable and stylish white sneakers perfect for casual outings."
@@ -11,7 +11,7 @@
         {
             "id": 2,
             "name": "Black Canvas Tekkies",
-            "image": "../images/products/shoes/69.png",
+            "image": "./images/products/shoes/69.png",
             "category":"shoes",
             "price": 1499 ,
             "description": "Durable black leather boots suitable for both formal and casual wear."
@@ -27,7 +27,7 @@
         {
             "id": 4,
             "name": "bluewey Sporty Tekkies",
-            "image": "../images/products/shoes/67.png",
+            "image": "./images/products/shoes/67.png",
             "category":"shoes",
             "price":  799 ,
             "description": " Sporty red tekkies with a breathable design, ideal for active outings."
@@ -35,7 +35,7 @@
           {
             "id": 5,
             "name": "Blue Denim Tekkies",
-            "image": "../images/products/shoes/68.png",
+            "image": "./images/products/shoes/68.png",
             "category":"shoes",
             "description": "Trendy blue denim tekkies that offer both comfort and style.",
             "price": 849,
@@ -44,7 +44,7 @@
           {
             "id": 6,
             "name": "white-blue Everyday Tekkies",
-            "image": "../images/products/shoes/70.png",
+            "image": "./images/products/shoes/70.png",
             "category":"shoes",
             "description": "Reliable grey tekkies designed for everyday wear and casual outings.",
             "price": 699,
@@ -53,7 +53,7 @@
           {
             "id": 7,
             "name": " Fun Tekkies",
-            "image": "../images/products/shoes/71.png",
+            "image": "./images/products/shoes/71.png",
             "category":"shoes",
             "description": "Bright yellow tekkies that add a pop of color to your casual wardrobe.",
             "price": 649,
@@ -62,7 +62,7 @@
           {
             "id": 8,
             "name": "White Slip-On Tekkies",
-            "image": "../images/products/shoes/72.png",
+            "image": "./images/products/shoes/72.png",
             "category":"shoes",
             "description": "Easy-to-wear white slip-on tekkies, perfect for quick outings with friends.",
             "price": 799,
@@ -71,7 +71,7 @@
           {
             "id": 9,
             "name": "yellow Eco-Friendly Tekkies",
-            "image": "../images/products/shoes/73.png",
+            "image": "./images/products/shoes/73.png",
             "category":"shoes",
             "description": "Sustainable green tekkies made from eco-friendly materials.",
             "price": 899,
@@ -80,7 +80,7 @@
           {
             "id": 10,
             "name": "black and green Striped Tekkies",
-            "image": "../images/products/shoes/74.png",
+            "image": "./images/products/shoes/74.png",
             "category":"shoes",
             "description": "Fashionable black and white striped tekkies that stand out in any casual setting.",
             "price": 749,
@@ -89,7 +89,7 @@
         {
           "id": 11,
           "name": "Elegant Black Tote",
-          "image": "../images/products/bags/11.png",
+          "image": "./images/products/bags/11.png",
           "category": "Handbag",
           "description": "A spacious and elegant black tote bag, perfect for everyday use.",
           "price": 1299,
@@ -98,7 +98,7 @@
         {
           "id": 12,
           "name": "snake skin Handbag",
-          "image": "../images/products/bags/13.png",
+          "image": "./images/products/bags/13.png",
           "category": "Handbag",
           "description": "A stylish red leather handbag that adds a pop of color to any outfit.",
           "price": 1599,
@@ -107,7 +107,7 @@
         {
           "id": 13,
           "name": "Classic Beige Satchel",
-          "image": "../images/products/bags/15.png",
+          "image": "./images/products/bags/15.png",
           "category": "Handbag",
           "description": "A classic beige satchel with a timeless design, suitable for any occasion.",
           "price": 1399,
@@ -116,7 +116,7 @@
         {
           "id": 14,
           "name": "yellow Shoulder Bag",
-          "image": "../images/products/bags/16.png",
+          "image": "./images/products/bags/16.png",
           "category": "Handbag",
           "description": "A chic navy blue shoulder bag that combines style and functionality.",
           "price": 1199,
@@ -125,7 +125,7 @@
         {
           "id": 15,
           "name": "black shoulder Bag",
-          "image": "../images/products/bags/17.png",
+          "image": "./images/products/bags/17.png",
           "category": "Handbag",
           "description": "A trendy green crossbody bag, perfect for hands-free convenience.",
           "price": 999,
@@ -134,7 +134,7 @@
         {
           "id": 16,
           "name": "white Hobo Bag",
-          "image": "../images/products/bags/17.png",
+          "image": "./images/products/bags/17.png",
           "category": "Handbag",
           "description": "A relaxed brown hobo bag that offers both style and practicality.",
           "price": 1099,
@@ -143,7 +143,7 @@
         {
           "id": 17,
           "name": "brown Quilted Bag",
-          "image": "../images/products/bags/19.png",
+          "image": "./images/products/bags/19.png",
           "category": "Handbag",
           "description": "A feminine pink quilted bag that adds a touch of elegance to any outfit.",
           "price": 1499,
@@ -152,7 +152,7 @@
         {
           "id": 18,
           "name": "white-blue Bucket Bag",
-          "image": "../images/products/bags/20.png",
+          "image": "./images/products/bags/20.png",
           "category": "Handbag",
           "description": "A cheerful yellow bucket bag that is both stylish and spacious.",
           "price": 1199,
@@ -161,7 +161,7 @@
         {
           "id": 19,
           "name": "Black Mini Bag",
-          "image": "../images/products/bags/21.png",
+          "image": "./images/products/bags/21.png",
           "category": "Handbag",
           "description": "A sleek black mini bag that is perfect for carrying essentials.",
           "price": 899,
@@ -170,7 +170,7 @@
         {
           "id": 20,
           "name": "brown Clutch Bag",
-          "image": "../images/products/bags/22.png",
+          "image": "./images/products/bags/22.png",
           "category": "Handbag",
           "description": "An elegant white clutch bag that is perfect for evening events.",
           "price": 1099,
@@ -179,7 +179,7 @@
         {
           "id": 21,
           "name": "Beige Backpack",
-          "image": "../images/products/bags/18.png",
+          "image": "./images/products/bags/18.png",
           "category": "Handbag",
           "description": "A versatile beige backpack that is both stylish and practical.",
           "price": 1299,
@@ -188,7 +188,7 @@
         {
           "id": 22,
           "name": "black Evening Bag",
-          "image": "../images/products/bags/23.png",
+          "image": "./images/products/bags/23.png",
           "category": "Handbag",
           "description": "A glamorous silver evening bag that adds sparkle to any outfit.",
           "price": 1399,
@@ -197,7 +197,7 @@
         {
           "id": 23,
           "name": "Brown Denim Bag",
-          "image": "../images/products/bags/24.png",
+          "image": "./images/products/bags/24.png",
           "category": "Handbag",
           "description": "A casual blue denim bag that is perfect for everyday use.",
           "price": 999,
@@ -206,7 +206,7 @@
         {
           "id": 24,
           "name": "Brown Messenger Bag",   
-          "image": "../images/products/bags/25.png",
+          "image": "./images/products/bags/25.png",
           "category": "Handbag",
           "description": "A practical brown messenger bag that is perfect for daily commutes.",
           "price": 1199,
@@ -215,7 +215,7 @@
         {
           "id": 25,
           "name": "Floral Print Bag",
-          "image": "../images/products/bags/27.png",
+          "image": "./images/products/bags/27.png",
           "category": "Handbag",
           "description": "A vibrant floral print bag that adds a touch of nature to your style.",
           "price": 1099,
@@ -224,7 +224,7 @@
         {
           "id": 26,
           "name": "Brown yuch Bag",
-          "image": "../images/products/bags/28.png",
+          "image": "./images/products/bags/28.png",
           "category": "Handbag",
           "description": "A fashionable black and white striped bag that stands out.",
           "price": 999,
@@ -233,7 +233,7 @@
         {
           "id": 27,
           "name": "brown Clutch Bag",
-          "image": "../images/products/bags/29.png",
+          "image": "./images/products/bags/29.png",
           "category": "Handbag",
           "description": "A unique purple satchel bag that adds a splash of color to your look.",
           "price": 1199,
@@ -242,7 +242,7 @@
         {
           "id": 28,
           "name": "Tan Leather Tote",
-          "image": "../images/products/bags/30.png",
+          "image": "./images/products/bags/30.png",
           "category": "Handbag",
           "description": "A durable tan leather tote bag that combines style and function.",
           "price": 1599,
@@ -251,7 +251,7 @@
         {
           "id": 29,
           "name": "white Wristlet",
-          "image": "../images/products/bags/31.png",
+          "image": "./images/products/bags/31.png",
           "category": "Handbag",
           "description": "A compact green wristlet that is perfect for carrying essentials.",
           "price": 699,
@@ -260,7 +260,7 @@
         {
           "id": 30,
           "name": "black Evening Bag",
-          "image": "../images/products/bags/33.png",
+          "image": "./images/products/bags/33.png",
           "category": "Handbag",
           "description": "A chic gold chain bag that adds a touch of luxury to any outfit.",
           "price": 1499,
@@ -269,7 +269,7 @@
         {
           "id": 31,
           "name": "silver Patent Leather Bag",
-          "image": "../images/products/bags/34.png",
+          "image": "./images/products/bags/34.png",
           "category": "Handbag",
           "description": "A bold red patent leather bag that makes a statement.",
           "price": 1399,
@@ -278,7 +278,7 @@
         {
           "id": 32,
           "name": "pink Sling Bag",
-          "image": "../images/products/bags/35.png",
+          "image": "./images/products/bags/35.png",
           "category": "Handbag",
           "description": "A stylish grey sling bag that is perfect for on-the-go convenience.",
           "price": 899,
@@ -287,7 +287,7 @@
         {
           "id": 33,
           "name": "pink Fringe Bag",
-          "image": "../images/products/bags/36.png",
+          "image": "./images/products/bags/36.png",
           "category": "Handbag",
           "description": "A fun orange fringe bag that adds a bohemian touch to any outfit.",
           "price": 1099,
@@ -296,7 +296,7 @@
         {
           "id": 34,
           "name": "Elegant Black Heels",
-           "image": "../images/products/shoes/61.png",
+           "image": "./images/products/shoes/61.png",
           "category": "ladyShoes",
       "description": "Sleek and elegant black heels perfect for formal occasions.",
       "price": 899,
@@ -305,7 +305,7 @@
         {
           "id": 35,
           "name": "Red Ballet Flats",
-          "image": "../images/products/shoes/48.png",
+          "image": "./images/products/shoes/48.png",
           "category": "ladyShoes",
           "description": "Comfortable and stylish red ballet flats suitable for everyday wear.",
           "price": 499,
@@ -314,7 +314,7 @@
         {
           "id": 36,
           "name": "White boots",
-          "image": "../images/products/shoes/49.png",
+          "image": "./images/products/shoes/49.png",
           "category": "ladyShoes",
           "description": "Classic white sneakers that offer both comfort and style.",
           "price": 699,
@@ -323,7 +323,7 @@
         {
           "id": 37,
           "name": "Brown Ankle Boots",
-          "image": "../images/products/shoes/50.png",
+          "image": "./images/products/shoes/50.png",
           "category": "ladyShoes",
           "description": "Trendy brown ankle boots perfect for casual and semi-formal outfits.",
           "price": 1099,
@@ -332,7 +332,7 @@
         {
           "id": 38,
           "name": "Black Suede Loafers",
-          "image": "../images/products/shoes/60.png",
+          "image": "./images/products/shoes/60.png",
           "category": "ladyShoes",
           "description": "Chic blue suede loafers ideal for both work and casual wear.",
           "price": 799,
@@ -341,7 +341,7 @@
         {
           "id": 39,
           "name": "Pink Sandals",
-          "image": "../images/products/shoes/59.png",
+          "image": "./images/products/shoes/59.png",
           "category": "ladyShoes",
           "description": "Cute and comfortable pink sandals perfect for summer outings.",
           "price": 399,
@@ -350,7 +350,7 @@
         {
           "id": 40,
           "name": "white-bit-64s Shoes",
-          "image": "../images/products/shoes/64.png",
+          "image": "./images/products/shoes/64.png",
           "category": "ladyShoes",
           "description": "High-performance green running shoes designed for optimal support and comfort.",
           "price": 1199,
@@ -359,7 +359,7 @@
     {
       "id": 41,
       "name": "white Maxi Dress",
-      "image": "../images/products/ladies/12.png",
+      "image": "./images/products/ladies/12.png",
       "category": "ladiesClothig",
       "description": "Beautiful white-beige print maxi dress.",
       "price": 1199,
@@ -368,7 +368,7 @@
     {
       "id": 42,
       "name": "whiteZA-maxi dress",
-      "image": "../images/products/ladies/37.png",
+      "image": "./images/products/ladies/37.png",
       "category": "ladiesClothig",
       "description": "Classic skinny dress that fit perfectly and is comfortable.",
       "price": 899,
@@ -377,7 +377,7 @@
     {
       "id": 43,
       "name": "fullwear clothing",
-      "image": "../images/products/ladies/38.png",
+      "image": "./images/products/ladies/38.png",
       "category": "ladiesClothig",
       "description": "walk the talk with a comfortable fit and stylish design.",
       "price": 599,
@@ -386,7 +386,7 @@
     {
       "id": 44,
       "name": "crimson casual outfit",
-      "image": "../images/products/ladies/39.png",
+      "image": "./images/products/ladies/39.png",
       "category": "ladiesClothig",
       "description": "Stylish clothig with a modern design and comfortable fit.",
       "price": 2499,
@@ -395,7 +395,7 @@
     {
       "id": 45,
       "name": "Casual T-Shirt",
-      "image": "../images/products/ladies/40.png",
+      "image": "./images/products/ladies/40.png",
       "category": "ladiesClothig",
       "description": "Comfortable and casual clothig that can beat the seasons ad are  for everyday wear.",
       "price": 299,
@@ -404,7 +404,7 @@
     {
       "id": 46,
       "name": "Pleated Midi dress",
-      "image": "../images/products/ladies/41.png",
+      "image": "./images/products/ladies/41.png",
       "category": "ladiesClothig",
       "description": "Elegant pleated midi dress suitable for both formal and casual occasions.",
       "price": 899,
@@ -413,7 +413,7 @@
     {
       "id": 47,
       "name": "creamy brow bottom and tops",
-      "image": "../images/products/ladies/42.png",
+      "image": "./images/products/ladies/42.png",
       "category": "ladiesClothig",
       "description": "creamy brow outfit with a flattering fit and comfortable fabric.",
       "price": 499,
@@ -422,7 +422,7 @@
     {
       "id": 48,
       "name": "beige Shorts",
-      "image": "../images/products/ladies/43.png",
+      "image": "./images/products/ladies/43.png",
       "category": "ladiesClothig",
       "description": "Stylish denim shorts perfect for summer days.",
       "price": 399,
@@ -431,7 +431,7 @@
     {
       "id": 49,
       "name": "Formal dress",
-      "image": "../images/products/ladies/44.png",
+      "image": "./images/products/ladies/44.png",
       "category": "ladiesClothig",
       "description": "Formal dress with a tailored fit and elegant design.",
       "price": 1199,
@@ -440,7 +440,7 @@
     {
       "id": 50,
       "name": "Wrap Dress",
-      "image": "../images/products/ladies/45.png",
+      "image": "./images/products/ladies/45.png",
       "category": "ladiesClothig",
       "description": "Versatile wrap dress that can be styled for different occasions.",
       "price": 1099,
@@ -449,7 +449,7 @@
     {
       "id": 51,
       "name": "pink floral outfit with Crop Top",
-      "image": "../images/products/ladies/46.png",
+      "image": "./images/products/ladies/46.png",
       "category": "ladiesClothig",
       "description": "Trendy crop top with a modern design and comfortable fit.",
       "price": 399,
@@ -458,7 +458,7 @@
     {
       "id": 52,
       "name": "Tailored floral dress",
-      "image": "../images/products/ladies/47.png",
+      "image": "./images/products/ladies/47.png",
       "category": "ladiesClothig",
       "description": "Tailored floaral dress with a classic look and professional style.",
       "price": 1699,
@@ -467,7 +467,7 @@
     {
       "id": 53,
       "name": "Printed Maxi Dress",
-      "image": "../images/products/ladies/53.png",
+      "image": "./images/products/ladies/53.png",
       "category": "ladiesClothig",
       "description": "Printed maxi dress with a flattering silhouette and comfortable fabric.",
       "price": 1499,
@@ -476,7 +476,7 @@
     {
       "id": 54,
       "name": "High-Waisted dress",
-      "image": "../images/products/ladies/55.png",
+      "image": "./images/products/ladies/55.png",
       "category": "ladiesClothig",
       "description": "High-waisted dress with a feminine design and versatile style.",
       "price": 699,
@@ -485,7 +485,7 @@
     {
       "id": 55,
       "name": "Boho blue deniem",
-      "image": "../images/products/ladies/56.png",
+      "image": "./images/products/ladies/56.png",
       "category": "ladiesClothig",
       "description": "Bohemian-style deniem with intricate embroidery and a relaxed fit.",
       "price": 799,
@@ -494,7 +494,7 @@
     {
       "id": 56,
       "name": "Knit Sweater pjs",
-      "image": "../images/products/ladies/57.png",
+      "image": "./images/products/ladies/57.png",
       "category": "ladiesClothig",
       "description": "Cozy knit sweater pjs perfect for layering in colder weather.",
       "price": 899,
@@ -503,7 +503,7 @@
     {
       "id": 57,
       "name": "pink female full outting fit",
-      "image": "../images/products/ladies/58.png",
+      "image": "./images/products/ladies/58.png",
       "category": "ladiesClothig",
       "description": "Chic printed jumpsuit that combines style and comfort.",
       "price": 1399,
@@ -512,25 +512,17 @@
     {
       "id": 58,
       "name": "Wide-short Pants",
-      "image": "../images/products/ladies/62.png",
+      "image": "./images/products/ladies/62.png",
       "category": "ladiesClothig",
       "description": "Wide-leg short pants with a relaxed fit and modern silhouette.",
       "price": 1099,
       "currency": "ZAR"
     },
-    {
-      "id": 59,
-      "name": "Embroidered Dress",
-      "image": "../images/products/ladies/64.png",
-      "category": "ladiesClothig",
-      "description": "Elegant embroidered dress with intricate detailing and a flattering fit.",
-      "price": 1799,
-      "currency": "ZAR"
-    },
+    
     {
       "id": 60,
       "name": "blue embrova dress",
-      "image": "../images/products/ladies/65.png",
+      "image": "./images/products/ladies/65.png",
       "category": "ladiesClothig",
       "description": "Stylish design dress that adds a modern feel to any occasion.",
       "price": 999,
@@ -539,7 +531,7 @@
     {
       "id": 61,
       "name": "beige interlock jacket",
-      "image": "../images/products/boys/10.png",
+      "image": "./images/products/boys/10.png",
       "category": "boys",
       "description": "Stylish beige colored jacket tailored  with a rugged look and durable material.",
       "price": 2599,
@@ -548,7 +540,7 @@
     {
       "id": 62,
       "name": "comic Jacket",
-      "image": "../images/products/boys/9.png",
+      "image": "./images/products/boys/9.png",
       "category": "boys",
       "description": "Classic comic jacket that adds a casual and cool vibe to any outfit.",
       "price": 999,
@@ -557,7 +549,7 @@
     {
       "id": 63,
       "name": "Cargo Pants",
-      "image": "../images/products/boys/80.png",
+      "image": "./images/products/boys/80.png",
       "category": "boys",
       "description": "Comfortable cargo pants with multiple pockets for practical use.",
       "price": 899,
@@ -566,7 +558,7 @@
     {
       "id": 64,
       "name": "Chino Pants",
-      "image": "../images/products/boys/79.png",
+      "image": "./images/products/boys/79.png",
       "category": "boys",
       "description": "Versatile chino pants suitable for both casual and semi-formal settings.",
       "price": 799,
@@ -575,7 +567,7 @@
     {
       "id": 65,
       "name": "inFormal Trousers",
-      "image": "../images/products/boys/78.png",
+      "image": "./images/products/boys/78.png",
       "category": "boys",
       "description": "Classic informal trousers with a tailored fit and professional look.",
       "price": 1299,
@@ -584,7 +576,7 @@
     {
       "id": 66,
       "name": "Hooded Parka",
-      "image": "../images/products/boys/77.png",
+      "image": "./images/products/boys/77.png",
       "category": "boys",
       "description": "Warm and stylish hooded parka jacket for chilly days.",
       "price": 1799,
@@ -593,7 +585,7 @@
     {
       "id": 67,
       "name": "Cargo Shorts",
-      "image": "../images/products/boys/82.png",
+      "image": "./images/products/boys/82.png",
       "category": "boys",
       "description": "Durable cargo shorts with plenty of pockets for outdoor activities.",
       "price": 599,
@@ -602,7 +594,7 @@
     {
       "id": 68,
       "name": "NASA",
-      "image": "../images/products/boys/81.png",
+      "image": "./images/products/boys/81.png",
       "category": "boys",
       "description": "Comfortable and functional track pants for sports and casual wear.",
       "price": 699,
@@ -611,7 +603,7 @@
     {
       "id": 69,
       "name": "Unicorn Print Dress",
-      "image": "../images/products/kids/3.png",
+      "image": "./images/products/kids/3.png",
       "category": "Girls",
       "description": "Adorable unicorn print dress for girls, perfect for parties and special occasions.",
       "price": 499,
@@ -620,7 +612,7 @@
     {
       "id": 70,
       "name": "full jacket with denim pants",
-      "image": "../images/products/kids/1.png",
+      "image": "./images/products/kids/1.png",
       "category": "girls",
       "description": "Cool wjite versitile jackets for little girls thats great for everyday wear.",
       "price": 299,
@@ -629,7 +621,7 @@
     {
       "id": 71,
       "name": "black track pants and jacket",
-      "image": "../images/products/kids/2.png",
+      "image": "./images/products/kids/2.png",
       "category": "Unisex",
       "description": "Classic pants overalls suitable for both boys and girls.",
       "price": 599,
@@ -638,7 +630,7 @@
     {
       "id": 72,
       "name": "multi color outfit",
-      "image": "../images/products/kids/4.png",
+      "image": "./images/products/kids/4.png",
       "category": "Girls",
       "description": "Pretty floral print skirt for girls, ideal for casual outings.",
       "price": 399,
@@ -647,7 +639,7 @@
     {
       "id": 73,
       "name": "floral print white jacket",
-      "image": "../images/products/kids/5.png",
+      "image": "./images/products/kids/5.png",
       "category": "girls",
       "description": "be ready for any day and any weather with this floral all girls jacket, comfortable for bedtime.",
       "price": 399,
@@ -656,7 +648,7 @@
     {
       "id": 74,
       "name": "pink topwear",
-      "image": "../images/products/kids/6.png",
+      "image": "./images/products/kids/6.png",
       "category": "Girls",
       "description": "Colorful topwear  for girls, perfect for chilly days.",
       "price": 449,
@@ -665,7 +657,7 @@
     {
       "id": 75,
       "name": "Striped Polo Skirt",
-      "image": "../images/products/kids/7.png",
+      "image": "./images/products/kids/7.png",
       "category": "girls",
       "description": "Smart striped polo skirt for girls, suitable for casual occasions.",
       "price": 349,
@@ -674,7 +666,7 @@
     {
       "id": 76,
       "name": "Cotton jacket",
-      "image": "../images/products/kids/52.png",
+      "image": "./images/products/kids/52.png",
       "category": "Unisex",
       "description": "Comfortable cotton jacket suitable for both boys and girls.",
       "price": 299,
@@ -683,7 +675,7 @@
     {
       "id": 77,
       "name": "Printed Dress",
-      "image": "../images/products/kids/51.png",
+      "image": "./images/products/kids/51.png",
       "category": "girls",
       "description": "Stylish printed dress for girls, perfect for everyday wear.",
       "price": 499,
@@ -692,7 +684,7 @@
     {
       "id": 78,
       "name": "Cargo Pants",
-      "image": "../images/products/kids/83.png",
+      "image": "./images/products/kids/83.png",
       "category": "Boys",
       "description": "Durable cargo pants for boys, ideal for outdoor adventures.",
       "price": 499,
@@ -701,7 +693,7 @@
     {
       "id": 79,
       "name": "Graphi ccargo clotthing",
-      "image": "../images/products/kids/84.png",
+      "image": "./images/products/kids/84.png",
       "category": "Boys",
       "description": "Trendy graphic cargo clothing for boys, suitable for playtime.",
       "price": 249,
@@ -710,7 +702,7 @@
     {
       "id": 80,
       "name": "white  gray outfit",
-      "image": "../images/products/kids/12.png",
+      "image": "./images/products/kids/1.png",
       "category": "boys",
       "description": "Classic clothing in gray and white, versatile for various outfits.",
       "price": 399,
@@ -719,7 +711,7 @@
     {
       "id": 81,
       "name": "Hooded Jacket",
-      "image": "../images/products/kids/86.png",
+      "image": "./images/products/kids/86.png",
       "category": "boys",
       "description": "Warm hooded jacket for both boys and girls, perfect for winter.",
       "price": 799,
@@ -728,12 +720,11 @@
     {
       "id": 82,
       "name": "pink pony feathered jackets",
-      "image": "../images/products/kids/87.png",
+      "image": "./images/products/kids/87.png",
       "category": "girls",
       "description": "Comfortable casual joggers suitable for both boys and girls.",
       "price": 349,
       "currency": "ZAR"
     }
-  
-]
+  ]   
 }
