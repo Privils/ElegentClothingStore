@@ -86,19 +86,23 @@ body{
 }
 .star-rating {
     display: flex;
+    direction: row;
     flex-direction: row-reverse;
-    justify-content: center;
 }
 .star {
     font-size: 2em;
     color: #d3d3d3;
     cursor: pointer;
+    font-size: 2em;
+    cursor: pointer;
+    padding: 5px;
 }
-
-.star.selected,
 .star:hover,
 .star:hover ~ .star {
-    color: #ffca08;
+    color: #000000;
+}
+.star.selected {
+    color: black; /* Color for selected stars */
 }
 #card{
     padding: 5px;
@@ -223,6 +227,10 @@ body{
 }
 /*shop.html*/
 /*-------------------------cart------------------------------*/
+.content-price{
+    font-size: 23px;
+    font-weight: 500;
+}
 .button{
     float: right;
     border:1px solid #000000;
@@ -336,7 +344,7 @@ font-size: 1.75em;
     width: 45%;
 }
 
-.cart-price {
+.cart-price{
     width: 15%;
     font-weight: 700;
     font-size: 24px;
@@ -369,4 +377,26 @@ font-size: 1.75em;
     text-align: center;
     font-size: 1.2em;
     margin-right: 25px;
+}
+.iconContainer {
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed; 
+    top: 10px;
+    right: 10px; 
+    z-index: 1000;
+}
+
+.fa-cart-shopping, .fa-moon, .fa-sun {
+    color: black;
+    font-size: 1.8em;
+    padding: 7px;
+    margin: 10px;
+    
+}
+.fa-cart-shopping:hover{
+    cursor: pointer;
+    transform: translateY(2px);
+    transform: scale(1.5);
 }
