@@ -74,6 +74,7 @@ function addToCartContent(event) {
   const price = container.getElementsByClassName("content-price")[0].innerText;
   console.log(title, imgSrc, price);
   addingContentToCarts(title, imgSrc, price);
+  increaseCartQuantity();
 }
 
 function addingContentToCarts(title, imgSrc, price) {
@@ -184,6 +185,7 @@ function removeCartContent(event) {
   } else {
     console.warn("Remove button is not correctly nested.");
   }
+  increaseCartQuantity();
 }
 
 //function for star rating
