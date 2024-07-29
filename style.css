@@ -27,9 +27,19 @@ body{
    font-weight: 600;
 }
 .logo{
-    font-size: 30px;
-    font-style: italic;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin-left: 12px;
     padding: 10px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, rgb(34, 241, 2), red); 
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+    font-family: 'Times New Roman', Times, serif;
 }
 /*------------------services------------------*/
 #services{
