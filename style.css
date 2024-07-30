@@ -581,7 +581,7 @@ font-size: 19px;
 }
 @media (max-width: 375px) {
     .card{
-        width: 90px;
+        width: 120px;
     }
     .name{
         font-size: small;
@@ -605,9 +605,7 @@ font-size: 19px;
         width: fit-content;
         padding: 3px;
     }
-    .card{
-        width: 160px;
-    }
+   
     .button{
         margin-right: 5px;
         font-size: small;
