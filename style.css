@@ -33,7 +33,7 @@ body{
     margin-left: 12px;
     padding: 10px;
     font-weight: 600;
-    background-image: linear-gradient(to right, rgb(34, 241, 2), red); 
+    background-image: linear-gradient(to right, rgb(241, 2, 2), rgb(255, 0, 119)); 
     padding: 10px;
     border-radius: 5px;
     -webkit-background-clip: text; 
@@ -414,7 +414,9 @@ font-size: 1.75em;
     transform: scale(1.5);
 }
 
-
+.block{
+    color: #0004ff;
+}
 
 
 
