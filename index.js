@@ -113,6 +113,7 @@ function addingContentToCarts(title, imgSrc, price) {
   increaseTrolly();
 }
 
+
 function quantityIncrease(event) {
   const input = event.target;
   if (isNaN(input.value) || input.value <= 0) {
@@ -174,7 +175,7 @@ function increaseTrolly() {
   count += 1;
   trollyUpdate.innerText = count;
   if (count > 0) {
-    trollyUpdate.style.color = "orange";
+    trollyUpdate.style.color = "red";
   }
 }
 // Function to remove item from cart
@@ -224,3 +225,10 @@ thankUser();
 document.addEventListener("DOMContentLoaded", function () {
   eventListeners();
 });
+
+//when the cart is empty the value should be zero
+//do the mobile designs
+//redo the animations
+//when view productas is clicked it should send you to shop
+//reduce the first image in home.html
+//include navigation in store.html

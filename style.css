@@ -147,6 +147,9 @@ body{
     font-family: 'Times New Roman', Times, serif;
     text-transform: capitalize;
   }
+  .btn{
+    text-transform: capitalize;
+}
   /*------------------------------------------card slide ------------------------------------------*/
   .cardSlide{
     margin-top: 40px;
@@ -409,4 +412,205 @@ font-size: 1.75em;
     cursor: pointer;
     transform: translateY(2px);
     transform: scale(1.5);
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+    .star-rating {
+        width: 100%;
+        justify-content: center;
+    }
+    .star {
+        font-size: 1.7em;
+        color: #d3d3d3;
+        cursor: pointer;
+        padding: 5px;
+    }
+    .content-price{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .button{
+        width: fit-content;
+        float: right;
+         margin-right: 5px;
+         font-size: 16px;
+         padding: 4px;
+    }
+}
+@media (max-width: 768px) {
+    .star-rating{
+        justify-content: center;
+    }
+    .star {
+        font-size: 14px;
+        color: #d3d3d3;
+        cursor: pointer;
+        padding: 5px;
+    }
+    .gotoAction{
+        font-size: 1.7em;
+        font-weight: 800;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: capitalize;
+      }
+      /*------------content price -----------*/
+      .content-price{
+        font-size: 16px;
+        font-weight: 400;
+        font-family: serif;
+    }
+    .button{
+        width: fit-content;
+        float: right;
+         margin-right: 5px;
+         font-size: 16px;
+         padding: 4px;
+    }
+    .card-title{
+        font-size: 16px;
+    }
+    .section-header{
+        font-size: 3em;
+    }
+    .cart-item, .cart-price, .cart-quantity {
+        font-size: 20px;
+    }
+    .cart-item-title {
+        color: #000000;
+        font-size: 1em;
+    }
+    
+    .cart-item-image {
+        width: 55px;
+        height: auto;
+        border-radius: 10px;
+    }
+    .cart-quantity-input {
+        font-size: 1em;
+    }
+    .removebtn{
+font-size: 19px;
+  padding: 4px;
+    }
+    .cart-total-title {
+        font-size: 2em;
+        margin-right: 20px;
+        padding: 8px;
+    }
+    .card{
+        width: 106px;
+    }
+}
+@media (max-width: 576px) {
+    .star-rating{
+        width: fit-content;
+        justify-content: center;
+      
+    }
+    .star {
+        font-size: 12px;
+        color: #d3d3d3;
+        cursor: pointer;
+        padding: 0px;
+        margin: 0px;
+    }
+    .gotoAction{
+        font-size: 16px;
+      }
+      #AboutHeader{
+        font-size: 1.3em;
+    }
+    #img{
+        width: 50px;
+        padding: 0px;
+        align-self: center;
+    }
+    .card-title{
+        font-size: 12px;
+    }
+    .aboutElegence, ol li{
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 5%;
+        font-family: serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+     word-spacing: 0px;
+    }
+    #btn{
+        font-size: 16px;
+        width: fit-content;
+        padding: 3px;
+    }
+    .content-price{
+        font-size: smaller;
+        font-weight: 400;
+        font-family: serif;
+    }
+    .button{
+         margin-right: 5px;
+         font-size: smaller;
+         padding: 2px;
+    }
+    .card-title{
+        font-size: small;
+        flex-wrap: wrap;
+    }
+    .section-header{
+        font-size: 1.8em;
+    }
+    .cart-item, .cart-price, .cart-quantity {
+        font-size: 18px;
+    }
+    .removebtn{
+font-size: 19px;
+  padding: 4px;
+    }
+    .cart-total-title {
+        font-size: 1.3em;
+        margin-right: 10px;
+        padding: 4px;
+    }
+    .cart-total-price{
+font-size: 19px;
+    }
+}
+@media (max-width: 375px) {
+    .card{
+        width: 90px;
+    }
+    .name{
+        font-size: small;
+    }
+    .cart-item-price{
+        font-size: 16px;
+    }
+    .cart-quantity-input {
+        height: 34px;
+        width:40px;
+        font-size: 1.2em;
+        margin-right: 16px;
+    }
+}
+@media (max-width: 320px) {
+    .gotoAction{
+        font-size: 13px;
+      }
+      #btn{
+        font-size: 13px;
+        width: fit-content;
+        padding: 3px;
+    }
+    .card{
+        width: 160px;
+    }
+    .button{
+        margin-right: 5px;
+        font-size: small;
+        padding: 2px;
+   }
 }
