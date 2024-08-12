@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
 body{
     font-family: "Playfair Display", serif;
-    overflow-x: hidden;
 }
 #nav-bar{
-   
     position: sticky;
     top: 0;
     z-index: 10;
@@ -33,7 +32,7 @@ body{
     margin-left: 12px;
     padding: 10px;
     font-weight: 600;
-    background-image: linear-gradient(to right, rgb(241, 2, 2), rgb(255, 0, 119)); 
+    background-image: linear-gradient(to right, rgba(52, 38, 38, 0.831), rgb(0, 0, 0)); 
     padding: 10px;
     border-radius: 5px;
     -webkit-background-clip: text; 
@@ -107,6 +106,7 @@ body{
     cursor: pointer;
     padding: 5px;
 }
+
 .star:hover,
 .star:hover ~ .star {
     color: #000000;
@@ -121,7 +121,7 @@ body{
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 3; /* Number of lines to show before "Read More" */
+    -webkit-line-clamp: 3; 
     -webkit-box-orient: vertical;
 }
 #ontainer{
@@ -591,7 +591,7 @@ font-size: 19px;
 }
 @media (max-width: 375px) {
     .name{
-        font-size: small;
+        font-size: 16px;
     }
     .cart-item-price{
         font-size: 16px;
@@ -603,7 +603,7 @@ font-size: 19px;
         margin-right: 16px;
     }
     .card{
-        width: 90px;
+        width: 106px;
     }
 }
 @media (max-width: 320px) {

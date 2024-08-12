@@ -17,7 +17,7 @@ const renderImages = async () => {
     imageData.forEach((value) => {
       let htmlSegment = `
                 <div class="card col-sm-2 carddiv">
-                    <img src="${value.image}" alt="" class="img-fluid loco" id="img">
+                    <img src="${value.image}" alt="" class="img-fluid" id="img">
                     <h6 class="card-title">${value.name}</h6>
                     <p class="content-price">${value.price}  ${value.currency}</p>
                     <div class="btncontainer">
