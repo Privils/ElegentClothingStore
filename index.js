@@ -17,7 +17,7 @@ const renderImages = async () => {
     imageData.forEach((value) => {
       let htmlSegment = `
                 <div class="card col-sm-2 carddiv">
-                    <img src="${value.image}" alt="" class="img-fluid" id="img">
+                    <img src="${value.image}" alt="" class="img-fluid" id="img" loading="lazy">
                     <h6 class="card-title">${value.name}</h6>
                     <p class="content-price">${value.price}  ${value.currency}</p>
                     <div class="btncontainer">
@@ -92,7 +92,7 @@ function addingContentToCarts(title, imgSrc, price) {
   }
   const newContainerElement = `
         <div class="cart-item cart-column">
-            <img src=${imgSrc} alt="cart image" class="cart-item-image">
+            <img src=${imgSrc} alt="cart image" class="cart-item-image" loading="lazy">
             <span class="name">${title}</span>
         </div>
         <span class="cart-price cart-column cart-item-price">${price}</span>
